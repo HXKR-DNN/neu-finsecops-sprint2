@@ -1,0 +1,9 @@
+.terraform/
+.terraform.lock.hcl
+tfplan
+*.zip
+crash.log
+terraform.tfvars
+*.tfstate
+*.tfstate.backup
+.aws-sam/

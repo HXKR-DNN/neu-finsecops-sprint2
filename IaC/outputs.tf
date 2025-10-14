@@ -1,9 +1,2 @@
-terraform {
-  required_version = ">= 1.6.0"
-  required_providers {
-    aws = { source = "hashicorp/aws", version = "~> 5.0" }
-  }
-}
-provider "aws" {
-  region = var.region
-}
+output "log_archive_bucket" { value = aws_s3_bucket.log_archive.bucket }
+output "cloudtrail_name"    { value = aws_cloudtrail.trail.name }

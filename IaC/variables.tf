@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 variable "project" {
   description = "Project tag / name prefix"
   type        = string
@@ -17,3 +18,7 @@ variable "enable_org_trail" {
   type        = bool
   default     = false
 }
+=======
+variable "project" { default = "neufinsecops" }
+variable "region"  { default = "us-east-1" }
+>>>>>>> origin/main

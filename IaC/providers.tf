@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 terraform {
   required_version = ">= 1.6.0"
   required_providers {
@@ -10,3 +11,14 @@ provider "aws" {
   region  = var.region
   profile = "neuadmin"
 }
+=======
+terraform {
+  required_version = ">= 1.6.0"
+  required_providers {
+    aws = { source = "hashicorp/aws", version = "~> 5.0" }
+  }
+}
+provider "aws" {
+  region = var.region
+}
+>>>>>>> origin/main

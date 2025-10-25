@@ -1,6 +1,6 @@
 # NeuFinance Sprint 2 IaC
 
-This repository contains the Infrastructure as Code (IaC) assets for NeuFinance an original and proprietary Capstone Cloud native SOCaaS, for phase 3 of The Knowledge House Cybersecurity Fellowship. The IaC was developed using Terraform to provision and manage cloud infrastructure securely and efficiently.
+This repository contains the Infrastructure as Code (IaC) assets for NeuFinance an original and proprietary Cloud native SOCaaS Capstone , for phase 3 of The Knowledge House Cybersecurity Fellowship. The IaC was developed using Terraform to provision and manage cloud infrastructure securely and efficiently.
 
 Overview
 The purpose of this repository is to demonstrate the implementation and evidence of Terraform-based infrastructure deployment within the NeuFinance project environment.
